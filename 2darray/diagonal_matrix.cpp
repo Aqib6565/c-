@@ -3,22 +3,21 @@ using namespace std;
 
 
 int diagonalsum(int matrix[][4],int n,int m){
-int sum1=0;
-int sum2=0;
+int sum=0;
 
 for(int i=0;i<n;i++){
     for(int j=0;j<m;j++){
        if(i==j){
-           sum1+=matrix[i][j];
+           sum+=matrix[i][j];
         }
         else if(i+j==n-1){
-           sum2+=matrix[i][j];
+           sum+=matrix[i][j];
         }
        
     }
 }
 
-return (sum1+sum2) ;
+return sum ;
 
 }
 
