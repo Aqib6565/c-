@@ -13,7 +13,7 @@ cout<<students[1][2];
 
 /*
 
-array [m][n];
+array [k][l];
 
 m = no of coloums
 n = no of rows
